@@ -1,0 +1,23 @@
+main{
+    color: black;
+    text-shadow: -3px 2px 8px rgba(0,0,0,0.66);
+}
+header{
+    color: black;
+    text-shadow: 1px 2px 6px rgba(0,0,0,1);
+}
+
+#p_footer {
+    background-color: purple;
+
+}
+
+.label_email{
+    color: violet;
+}
+
+
+body{
+    background-image: url("https://4kwallpapers.com/images/wallpapers/re-zero-season-4-3840x2160-23039.jpg");
+    background-position: center;
+}

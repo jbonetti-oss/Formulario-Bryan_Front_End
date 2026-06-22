@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sistema de Cadastro</title>
+  <link rel="stylesheet" href="./index.css">
 </head>
 <body>
 
@@ -22,13 +23,13 @@
     <section>
       <h2>Preencha o formulário abaixo</h2>
       <form action="#" method="post">
-        <label for="nome">Nome:</label>
+        <label class="label_nome" for="nome">Nome:</label>
         <input type="text" id="nome" name="nome" required><br><br>
 
-        <label for="email">E-mail:</label>
+        <label class="label_email" for="email">E-mail:</label>
         <input type="email" id="email" name="email" required><br><br>
 
-        <label for="senha">Senha:</label>
+        <label  class="label_senha" for="senha">Senha:</label>
         <input type="password" id="senha" name="senha" required><br><br>
 
         <button type="submit">Enviar</button>
@@ -37,7 +38,7 @@
   </main>
 
   <footer>
-    <p>&copy; 2026 - Desenvolvido por José Henrique Ribeiro Bonetti</p>
+    <p id="p_footer">&copy; 2026 - Desenvolvido por José Henrique Ribeiro Bonetti</p>
   </footer>
 
 </body>
